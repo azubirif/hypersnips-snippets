@@ -131,19 +131,9 @@ snippet · "dot" Ai
 endsnippet
 
 context math(context)
-snippet `([^no])rm` "roman" Ai
-``rv = m[1]``\mathrm{$1}$0
-endsnippet
-
-context math(context)
 snippet `([ ]*)trans` "transpose" Ai
 ^\top 
-endsnippet
-
-context math(context)
-snippet `([ ]*)conj` "conjugate" Ai
-^* 
-endsnippet
+endsnippe
 
 context math(context)
 snippet Tr "trace" Ai
@@ -1223,8 +1213,7 @@ endsnippet
 ##############################################################################
 # Environments
 ##############################################################################
-context math(context)
-snippet beg "environment" A
+snippet beg "environment" Ai
 \begin{$1}
 $0
 \end{$1}
