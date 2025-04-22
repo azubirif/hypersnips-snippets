@@ -36,7 +36,11 @@ endsnippet
 # Math mode
 ##############################################################################
 snippet mk "Inline math" iA
-\$$0\$
+\($0\)
+endsnippet
+
+snippet vv "Vector" iA
+\vv{$1}$0
 endsnippet
 
 snippet bf "Text BF" iA
@@ -48,9 +52,9 @@ snippet sec "Section"
 endsnippet
 
 snippet dm "Display math" A
-\begin{align}
-$0
-\end{align}
+\[
+	$0
+\]
 endsnippet
 
 snippet eqq "Equation Environment" A
@@ -78,6 +82,12 @@ endsnippet
 context math(context)
 snippet bf "math bold" Ai
 \mathbf{$0}
+endsnippet
+
+snippet itmize "Itemizar" Ai
+\begin{itemize}
+	\item $0
+\end{itemize}
 endsnippet
 
 context math(context)
