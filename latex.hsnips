@@ -40,7 +40,7 @@ snippet mk "Inline math" iA
 endsnippet
 
 snippet vv "Vector" iA
-\vv{$1}$0
+\vb{$1}$0
 endsnippet
 
 snippet bf "Text BF" iA
